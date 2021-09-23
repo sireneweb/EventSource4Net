@@ -126,7 +126,7 @@ namespace EventSource4Net
                             }
                         }
 
-                        //stream.Dispose()
+                        stream.Dispose();
                         //stream.Close();
                         //mResponse.Close();
                         //mResponse.Dispose();
